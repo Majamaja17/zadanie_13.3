@@ -9,7 +9,7 @@ process.stdin.on('readable', function() {
         var instruction = input.toString().trim();
 
         switch (instruction) {
-		    case (instruction === '/exit')
+		    case '/exit':
 		        process.stdout.write('Quitting app!\n');
 		        process.exit();
 
