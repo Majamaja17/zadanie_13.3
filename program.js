@@ -1,5 +1,3 @@
-console.log(process.versions);
-console.log(process.env);
 process.stdin.setEncoding('utf-8');
 
 process.stdin.on('readable', function() {
@@ -18,3 +16,6 @@ process.stdin.on('readable', function() {
 		}       
     }
 });
+
+console.log(process.versions);
+console.log(process.env);
