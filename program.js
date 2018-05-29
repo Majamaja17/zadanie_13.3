@@ -13,7 +13,8 @@ process.stdin.on('readable', function() {
 		        process.stdout.write('Quitting app!\n');
 		        process.exit();
 
-		     case process.stderr.write('Wrong instruction!');
+		     default:
+		     process.stderr.write('Wrong instruction!');
 		}       
     }
 });
