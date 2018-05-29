@@ -16,3 +16,6 @@ process.stdin.on('readable', function() {
 		}       
     }
 });
+
+console.log(process.versions);
+console.log(process.env);
