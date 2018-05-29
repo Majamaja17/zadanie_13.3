@@ -11,8 +11,8 @@ process.stdin.on('readable', function() {
         case (instruction === '/exit')
             process.stdout.write('Quitting app!\n');
             process.exit();
-        case {
-            process.stderr.write('Wrong instruction!');
-        }
+            
+        case process.stderr.write('Wrong instruction!');
+       
     }
 });
